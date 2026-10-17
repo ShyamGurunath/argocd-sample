@@ -31,7 +31,7 @@ metadata:
   name: tiny-web-ui-service
   namespace: jacob
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   ports:
   - port: 80
     targetPort: 80
